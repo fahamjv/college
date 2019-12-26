@@ -148,7 +148,8 @@ void buildHuffmanTree(string text)
 int main()
 {
 	string text = "IRANIAN";
-
+    cout << "Enter a string :";
+    cin >> text;
 	buildHuffmanTree(text);
 
 	return 0;
